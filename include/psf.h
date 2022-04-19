@@ -40,6 +40,8 @@ class PropertyNotFound: public std::exception {};
 
 #include "psfdata.h"
 
+
+
 typedef std::map<std::string, const PSFScalar *> PropertyMap;
 
 class PSFDataSet {
